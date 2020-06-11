@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register user",
+        "description": "",
+        "id": "registered-login-activity;register-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4813688225,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161183115,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter username",
+            "match": {
+              "location": "StepDefinition.user_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32434,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter password",
+            "match": {
+              "location": "StepDefinition.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39113,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be logged in",
+            "match": {
+              "location": "StepDefinition.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86524,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on logout button",
+            "match": {
+              "location": "StepDefinition.user_click_on_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27727,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be logged out in",
+            "match": {
+              "location": "StepDefinition.user_should_be_logged_out_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registered login activity",
+    "description": "",
+    "id": "registered-login-activity",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

@@ -1,0 +1,9 @@
+Feature: Registered login activity
+
+  Scenario: Register user             # Login.feature:3
+    Given User is on login page       # StepDefinition.user_is_on_login_page()
+    When User enter username          # StepDefinition.user_enter_username()
+    And User enter password           # StepDefinition.user_enter_password()
+    Then User should be logged in     # StepDefinition.user_should_be_logged_in()
+    When User click on logout button  # StepDefinition.user_click_on_logout_button()
+    Then User should be logged out in # StepDefinition.user_should_be_logged_out_in()
